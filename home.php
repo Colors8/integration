@@ -9,7 +9,7 @@
 <!-- Header general -->
 <header>
     <img src="img/logo-wordpress.png" alt="Logo">
-    <button><a href="#">Créez votre propre kit</a></button>
+    <button><a href="#">Créeez votre propre kit</a></button>
 </header>
 
 <body> 
