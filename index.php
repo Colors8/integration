@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title><?php bloginfo('name'); ?></title>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/reset.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-    
-</head>
-<body> 
-<!-- Header general -->
-<header>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/logo-wordpress.png" alt="Logo">
-    <button><a href="#">Créez votre propre kit </a></button>
-    <!-- On ajoutera peut-être un p la pour faire un petit sous-titre de blabla ;) -->
-</header>
 
 
+<?php get_header();?>
+ 
 <!-- Header home -->
 	<div class="home">
 		<span><?php bloginfo('description'); ?></span>	
@@ -77,9 +63,5 @@
 		</li>
 	</ul>
 	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
-	</body>
-</html>
+<?php get_footer(); ?>
+	
