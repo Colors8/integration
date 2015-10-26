@@ -92,8 +92,8 @@ header a{
 	z-index: -1;
 /*	background-color: #000;
 	opacity: 0.6;*/
-	-webkit-filter: opacity(.8);
-  filter: opacity(.8);
+	-webkit-filter: opacity(0.5);
+  filter: opacity(.5);
 }
 
 
