@@ -1,13 +1,18 @@
 /** FONTS **/
+@font-face{
+	font-family: NeutrafaceText-Light;
 
+	src: url(font/NeutrafaceText-Light.otf);
+}
 @font-face {
     font-family: NeutrafaceText;
-    src: url(font/NeutrafaceText-Light.otf);
+    
      src: url(font/NeutrafaceText-Book.otf);
 }
 
 @font-face {
     font-family: BigJohn;
+
     src: url(font/BigJohn.otf);
 }
 
@@ -119,4 +124,14 @@ header a{
 .content:hover .icon{
 	transform: translateY(-30px);
 	width: 90px;	
+}
+
+.slogan{
+	font-family: NeutrafaceText-Light !important;
+}
+
+/*----Button : creation de kit----*/
+
+.CreateKit a{
+	font-family: NeutrafaceText;
 }

@@ -10,8 +10,6 @@
 </head>
 <body> 
 <!-- Header general -->
-<header>
+ <header>
     <img src="<?php echo get_template_directory_uri(); ?>/img/logo-wordpress.png" alt="Logo">
-    <button><a href="#">Créez votre propre kit </a></button>
-    <!-- On ajoutera peut-être un p la pour faire un petit sous-titre de blabla ;) -->
-</header>
+    

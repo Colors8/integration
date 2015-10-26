@@ -1,10 +1,12 @@
 
 
 <?php get_header();?>
- 
+<button class="CreateKit"><a href="#">Créez votre propre kit </a></button>
+    <!-- On ajoutera peut-être un p la pour faire un petit sous-titre de blabla ;) -->
+</header>
 <!-- Header home -->
 	<div class="home">
-		<span><?php bloginfo('description'); ?></span>	
+		<span class="slogan"><?php bloginfo('description'); ?></span>	
 	</div>
 
 	<!-- Content of the home page -->
