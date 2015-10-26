@@ -1,20 +1,21 @@
 /** FONTS **/
-@font-face{
-	font-family: NeutrafaceText-Light;
 
-	src: url(font/NeutrafaceText-Light.otf);
-}
 @font-face {
     font-family: NeutrafaceText;
-    
+    src: url(font/NeutrafaceText-Light.otf);
      src: url(font/NeutrafaceText-Book.otf);
 }
 
 @font-face {
     font-family: BigJohn;
-
     src: url(font/BigJohn.otf);
 }
+
+/****************************** 
+
+			HOME
+
+*******************************/
 
 /** GENERAL + HEADER **/
 
@@ -68,11 +69,11 @@ header a{
 /** CONTENT HOME **/
 
 .choices{
-	height: 100%;
+	height: 800px;
 	width: 100%;
 	list-style-type: none; 
 	margin: 0;
-	display: inline-block;
+	display: inline;
 }
 
 .enviro{
@@ -90,33 +91,15 @@ header a{
 }
 
 .content{
-	height: 100%;
+	height: 400px;
 	text-align: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: 1;
-	position:relative;
-
+	z-index: -1;
 /*	background-color: #000;
 	opacity: 0.6;*/
-	
-}
-
-
-.overlay{
-	height:100%;
-	position:relative;
-	background:rgba(0,0,0,0.6);
-
-    opacity:1;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-
-.overlay:hover{
-	z-index: -1;
-	opacity:0;	
-	
+	-webkit-filter: opacity(.8);
+  filter: opacity(.8);
 }
 
 
@@ -131,10 +114,6 @@ header a{
 
 .content:hover p{
 	transform: translateY(-40px);
-	color:white;
-
-	
-
 	
 }
 
@@ -148,12 +127,230 @@ header a{
 	width: 90px;	
 }
 
-.slogan{
-	font-family: NeutrafaceText-Light !important;
+/****************************** 
+
+	  PRESENTATION SCREEN
+
+*******************************/
+
+/** Menu right side **/
+
+.menu{
+	float: right;
+	list-style-type: none;
+	width: 10%;
 }
 
-/*----Button : creation de kit----*/
+.menu a{
+	text-decoration: none;
+}
 
-.CreateKit a{
-	font-family: NeutrafaceText;
+.menu li{
+	color: #899d4e;
+	padding-bottom: 12px;
+	padding-left: 90px;
+}
+
+.menu img{
+	width: 8px;
+}
+
+.menu li p{
+	visibility: hidden;
+	font-family: NeutrafaceText-Light;
+	font-size: 12px;
+}
+
+.menu li:hover p{
+	visibility: visible;
+}
+
+/** Base **/
+
+.presentation{
+	width: 100%;
+	height: 660px;
+}
+
+/** LEFT PART **/
+
+.left-bloc{
+	width: 35%;
+	height: 100%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-bloc img{
+	margin-top: 30px;
+	margin-left: 80px;
+	width: 100px;
+}
+
+.left-bloc h2{
+	color: #d7d393;
+	padding-top: 180px;
+	padding-left: 80px;
+	font-family: NeutrafaceText-Light;
+	font-size: 30px;
+}
+
+.left-bloc h3{
+	color: #d7d393;
+	padding-left: 80px;
+	font-family: BigJohn;
+	font-size: 40px;
+}
+
+/** RIGHT PART **/
+
+.info-bloc{
+	width: 55%;
+	height: 100%;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.info-bloc h4{
+	color: #899d4e;
+	font-family: BigJohn;
+	font-size: 20px;
+	padding-left: 80px;
+	padding-top: 50px;
+}
+
+.info-bloc>p{
+	padding-top: 10px;
+	padding-left: 80px;
+	font-family: NeutrafaceText-Light;
+	font-size: 16px;
+	color: #000;
+}
+
+.info-bloc p span{
+	display: block;
+}
+
+.info-bloc h5{
+	color: #899d4e;
+	font-family: BigJohn;
+	font-size: 20px;
+	padding-left: 80px;
+	padding-top: 35px;
+}
+
+/** Presentation of the situations **/
+
+.intro-situations{
+	width: 100%;
+}
+
+.intro{
+	width: 40%;
+	float: left;
+	padding-left: 20px;
+}
+
+.intro a{
+	text-decoration: none;
+}
+
+.intro h6{
+	color: #899d4e;
+	font-family: NeutrafaceText-Light;
+	font-size: 20px;
+	padding-top: 25px;
+
+}
+
+.intro p{
+	padding-top: 10px;
+	font-family: NeutrafaceText-Light;
+	font-size: 14px;
+	color: #000;
+}
+
+.one{
+	padding-left: 80px;
+}
+
+.three{
+	padding-left: 80px;
+}
+
+/****************************** 
+
+	  SITUATIONS SCREENS
+
+*******************************/
+
+/** First situation **/
+
+.situation-one{
+	width: 100%;
+	height: 660px; 
+}
+
+.left-info{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-info img{
+	margin-top: 30px;
+	margin-left: 80px;
+	width: 100px;
+}
+
+.left-info>span{
+	font-family: BigJohn;
+	font-size: 20px;
+	padding-left: 80px;
+	padding-top: 200px;
+	color: #899d4e;
+}
+
+.left-info>p{
+	font-family: NeutrafaceText-Light;
+	font-size: 15px;
+	width: 85%;
+	padding-left: 80px;
+	padding-top: 70px;
+}
+
+.needed{
+	width: 65%;
+	height: 100%
+}
+
+.needed>p{
+	font-family: BigJohn;
+	font-size: 45px;
+	color: #899d4e; 
+	text-align: center;
+	padding-top: 30px;
+}
+
+.slider{
+	height: 420px;
+	width: 880px;
+	background-color: blue;
+}
+
+/** Second situation **/
+.situation-two{
+	width: 100%;
+	height: 660px; 
+	background-color: green;
+}
+
+/** Third situation **/
+.situation-three{
+	width: 100%;
+	height: 660px; 
+	background-color: blue;
 }
