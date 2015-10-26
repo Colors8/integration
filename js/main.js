@@ -31,78 +31,74 @@
 //   tn1.reverse(currentTime);
 // });
 
-window.onload = (function animation() {
+// window.onload = (function animation() {
 
     // animation des blocks li
 
-    var home = function home() {
+    // var home = function home() {
 
-        var li = $('li');
+    //     var li = $('li');
 
-        var tl = new TimelineLite();
+    //     var tl = new TimelineLite();
 
-        tl.staggerFrom(li, 2, {
-            scale: 0.5,
-            opacity: 0,
-            delay: 0.5,
-            ease: Elastic.easeOut,
-            force3D: true
-        }, 0.2);
-    }
+    //     tl.staggerFrom(li, 2, {
+    //         scale: 0.5,
+    //         opacity: 0,
+    //         delay: 0.5,
+    //         ease: Elastic.easeOut,
+    //         force3D: true
+    //     }, 0.2);
+    // }
 
     // animation opiciter de chaque li 
 
 
-    var situation = function situation() {
+//     var situation = function situation() {
 
-        var ti = $('div.content');
+//         var ti = $('div.content');
 
-        var ta = $('content');
+//         var ta = $('content');
 
 
-        ti.each(function(index, element) {
+//         ti.each(function(index, element) {
 
-            var tl = new TimelineLite({
-                paused: true
-            });
-            tl.set(element, {
-                '-webkit-filter': 'brightness(100%)'
-            });
-            // tl.to(element2,0.7,{scaleX:5});
+//             var tl = new TimelineLite({paused: true});
+            
+//             tl.set(element,1{})
 
-            element.animation = tl;
-        })
+//             element.animation = tl;
+//         })
 
 
 
-        ti.hover(function() {
-            if ($('div.content.active')[0] && $("div.content.active")[0] != this) {
-                $('div.content.active')[0].animation.reverse();
-                $('div.content.active').removeClass("active");
-            }
+//         ti.hover(function() {
+//             if ($('div.content.active')[0] && $("div.content.active")[0] != this) {
+//                 $('div.content.active')[0].animation.reverse();
+//                 $('div.content.active').removeClass("active");
+//             }
 
-            if ($(this).hasClass("active")) {
-                $(this).removeClass("active");
-                this.animation.reverse();
-            } else if (!$(this).hasClass("active")) {
-                $(this).addClass("active");
-                this.animation.play();
-            }
-        });
-    }
+//             if ($(this).hasClass("active")) {
+//                 $(this).removeClass("active");
+//                 this.animation.reverse();
+//             } else if (!$(this).hasClass("active")) {
+//                 $(this).addClass("active");
+//                 this.animation.play();
+//             }
+//         });
+//     }
 
 
 
 
-    home();
-    situation();
+//     home();
+//     situation();
 
 
 
 
 
 
-});
+// });
 
 
 
