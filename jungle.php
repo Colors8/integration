@@ -32,7 +32,7 @@
 						<h5>PRINCIPAUX DANGERS</h5>
 						<div class="intro-situations">
 							<div class="intro one">
-								<a href="#">
+								<a href="#situation-one">
 									<h6>Egaré</h6>
 									<p>Dans une fôret dense en végétation où il y a peu de repères, il devient facile de ne pas retrouver son chemin.</p>
 								</a>
@@ -54,6 +54,7 @@
 				</div>
 			</section>
 			<section class="situation-one" style="background-image: url(img/jungle-bg1.png)">
+				<div class="green" style="background-color: #3f754b"></div>
 				<div class="left-info">
 					<img src="img/logo-wordpress.png" alt="Logo">
 					<span>A PROPOS</span>
@@ -61,8 +62,18 @@
 				</div>
 				<div class="needed">
 					<p>Egare</p>
-					<div class="slider">
-						
+					<div class="content-slider">
+					<p>Vous aurez besoin de <strong>5 ingrédients</strong></p>
+						<div class="slider">
+							<div class="ingredient-one">
+								<div class="first-ingredient">
+										<img src="" alt="Machette">
+										<div class="separator"></div>
+										<p>Dégager son chemin</p>
+								</div>
+							<p>Machette</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
