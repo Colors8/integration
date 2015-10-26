@@ -1,9 +1,12 @@
 /** FONTS **/
-
+@font-face{
+	font-family: NeutrafaceText-book;
+	src: url(font/NeutrafaceText-Book.otf);
+}
 @font-face {
-    font-family: NeutrafaceText;
+    font-family: NeutrafaceText-light;
     src: url(font/NeutrafaceText-Light.otf);
-     src: url(font/NeutrafaceText-Book.otf);
+     
 }
 
 @font-face {
@@ -88,6 +91,26 @@ header a{
 	width: 100%;
 	height: 100%;
 	text-decoration: none;
+}
+
+.overlay{
+	height:100%;
+	position:relative;
+	background:rgba(0,0,0,0.6);
+
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.overlay:hover{
+	z-index: -1;
+	opacity:0;	
+	
+}
+
+.slogan{
+	font-family: NeutrafaceText-light;
 }
 
 .content{
