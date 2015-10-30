@@ -29,10 +29,12 @@
       </div>
 	<?php endwhile; ?>
 <?php endif; ?>
-     
-   
    </div>
 </section>
+
+
+
+
 <section class="panel" id="panel-name-2">
    <div class="title-template">EGARE</div>
    <div class="float-box">
