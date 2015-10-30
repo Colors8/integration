@@ -61,6 +61,7 @@ html, body {
 
 .panel {
   min-height: 100%;
+  position: relative;
   width: 100%;
 }
 #framecontent {
@@ -114,6 +115,9 @@ html, body {
     
  
   }
+
+
+
   .contain-right {
     position: absolute;
     top: 0;
@@ -122,6 +126,7 @@ html, body {
     background-color: white;
     height: 100%;
     overflow-x: hidden;
+    margin: auto;
 
     h1 {
       color: black;
@@ -138,6 +143,8 @@ html, body {
       position: relative;
       width: 70%;
     }
+
+
     .title-template-right-top{
       color:green;
       padding-top: 15%;
@@ -164,6 +171,11 @@ html, body {
 
   }
   .template-situation{
+    width: 400px;
+  
+
+
+
 
   }
 }

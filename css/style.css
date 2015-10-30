@@ -44,6 +44,7 @@ html, body {
 /* PANEL */
 .panel {
   min-height: 100%;
+  position: relative;
   width: 100%; }
 
 #framecontent {
@@ -89,7 +90,8 @@ html, body {
     width: 60%;
     background-color: white;
     height: 100%;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    margin: auto; }
     #panel-name-1 .contain-right h1 {
       color: black;
       position: relative; }
@@ -114,6 +116,8 @@ html, body {
     left: 120px;
     position: relative;
     width: 70%; }
+  #panel-name-1 .template-situation {
+    width: 400px; }
 
 #panel-name-2 {
   background-color: #ccc; }
