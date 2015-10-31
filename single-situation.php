@@ -31,8 +31,6 @@
 </section>
 
 
-
-
 <!-- section 2 = panel2 acf-->
 
 
@@ -47,6 +45,9 @@
 
 
 <!-- section 3 = panel3 acf  -->
+
+
+
 <section class="panel" id="panel-name-3">
    <div class="title-template"><?php the_field('title-panel-3') ?></div>
    <div class="float-box">
@@ -54,17 +55,16 @@
       <p><?php the_field('description-propos-3') ?></p>
    </div>
 </section>
+
+
+
+
+<!-- section 4 = panel4 acf  -->
 <section class="panel" id="panel-name-4">
-   <div class="title-template">Aniaml</div>
+   <div class="title-template"><?php the_field('title-panel-4') ?></div>
    <div class="float-box">
       <h1 class="title-template-1">A PROPOS</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <p><?php the_field('description-propos-4') ?></p>
    </div>
 </section>
   
