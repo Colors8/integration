@@ -32,7 +32,7 @@ function situation_post_type() {
 		'label'               => __( 'Situation', 'text_domain' ),
 		'description'         => __( 'Post Type Description', 'text_domain' ),
 		'labels'              => $labels,
-		'supports'            => array('thumbnail','title','editor','author','page-attributes','custom-fields' ),
+		'supports'            => array('thumbnail','title','editor','author','page-attributes' ),
 		'taxonomies'          => array( 'category', 'post_tag' ),
 		'hierarchical'        => false,
 		'public'              => true,
@@ -149,7 +149,7 @@ function create_kit_post_type() {
 		'publicly_queryable'  => true,
 		'capability_type'     => 'page',
 	);
-	register_post_type( 'create_kit', $args );
+	$contact = register_post_type( 'create_kit', $args );
 
 }
 ?>
